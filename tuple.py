@@ -9,5 +9,13 @@ def area_perimeter_sq(side_length):
 
 result = area_perimeter_sq(5) 
 
-print(f"Area: {result[0]} ") 
-print(f"Perimeter: {result[1]} ")
+# print(f"Area: {result[0]} ") 
+# print(f"Perimeter: {result[1]} ")
+
+lst = [1, 2, 3]
+new_list = []
+
+for x in lst: 
+    new_list.append((x, x*x))
+
+print(new_list)
